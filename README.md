@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can see a live demo of the app from [this Code Sandbox](https://codesandbox.io/s/optimistic-waterfall-5sf0p?file=/src/App.tsx)
+
 ## Available Scripts
 
 In the project directory, you can run:
