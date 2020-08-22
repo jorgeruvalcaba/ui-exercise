@@ -1,29 +1,44 @@
-# SalesLoft UI Exercise
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instructions
+## Available Scripts
 
-Create a responsive single page app that is based on Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of Javascript (vanilla JS or any framework of your choice) & CSS/Sass/Less,  while also showing your grasp of UI/UX best practices.
+In the project directory, you can run:
 
-Use the following guidelines when building the application:
+### `yarn start`
 
-  * Uses color scheme similar to that of Gmail
-  * Displays a list of emails with name, title, date and tags based on provided emails.json file
-  * Allows for selection of one or more emails by the end user
-  * Allows users to perform a number of actions on one or more selected emails
-  * Shows a sidebar that displays a number of tags
-  * Table cells should be viewable at all resolutions above 320px
-  * Include at least one javascript test
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Try to time box this exercise to take no longer than 4 hours. If you don't feel like you're able to finish within that timeframe, focus on making parts of the exercise great rather than submitting a project that's 80% complete across the board. This gives engineers an opportunity to explore what it's like to work with you while we're fleshing out the remaining work or expanding on it.
+### `yarn test`
 
-Also, please don't use this an an opportunity to learn a new framework - instead, use tools and technologies you are comfortable with so we can have an in-depth discussion about your decisions and approach. 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Submission
+### `yarn build`
 
-Please clone this repo and submit via Greenhouse. The submission should include:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-  * All source files in a zip file
-  * A link to a running version of the application
-  * A README file with instructions on how to run the project locally
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
